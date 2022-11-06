@@ -8,7 +8,7 @@ class Admin extends CI_Controller {
 		$this->load->helper(array('form','url'));
 		$this->load->library("session");
 		if(!$this->session->userdata("id_login"))
-			redirect(base_url()."admin.php/login.html");
+			redirect(base_url()."admin.php/login");
 		
 	}
 
