@@ -6,3 +6,11 @@ DewaWeb
 user name admnin
 U : endy_supriyatna
 P : password
+
+host
+sikilmyadmin
+id19780056_indoclot_idc
+id19780056_endy
+
+u : endy
+p : 79ap9^%Qc[S]ziG

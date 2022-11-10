@@ -32,17 +32,45 @@
 													foreach($gambar_produk as $gmb):
 												?>
 												<div class="item <?php echo ($i==1?'active':'') ?>">
-													<img src="<?php echo base_url()."gambar_produk_/".$gmb->gambar_produk ?>" class="img-responsive" width="250px" />
+													<img src="<?php echo base_url()."gambar_produk_/".$gmb->gambar_produk ?>" class="img-responsive" width="100%" />
 												</div>
 												<?php
 													$i++;
 													endforeach
 												?>
 											</div>
+											
 										</div>
+										
 									</span>
+							
 									<div class="space-4"></div>
+									<div class="row" >
+										<div class="col-md-6 ">
+											<div class="thumbnail search-thumbnail">
+												<a href="#" class="btn btn-success btn"><img class="media-object" src="<?php echo base_url()."indoclothingkarawang/tokped.png" ?>" style="width:100%" /></a>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="thumbnail search-thumbnail">
+												<a href="#" class="btn btn-warning btn-block"><img class="media-object" src="<?php echo base_url()."indoclothingkarawang/bl.png" ?>" style="width:100%" /></a>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="thumbnail search-thumbnail">
+												<a href="#" class="btn btn-warning btn-block"><img class="media-object" src="<?php echo base_url()."indoclothingkarawang/Sop.png" ?>" style="width:100%" /></a>
+											</div>
+													
+										</div>
+										<div class="col-md-6">
+											<div class="thumbnail search-thumbnail">
+												<a href="https://wa.me/+6285717140762?text=saya%20tertarik%20<?php echo strtolower($data_produk->nama_produk) ?>" class="btn btn btn" target="_blank"><img class="media-object" src="<?php echo base_url()."indoclothingkarawang/wa.png" ?>" style="width:100%" /></a>
+											</div>
+													
+										</div>
+									</div>
 								</div>
+								
 							</div>
 							<div class="col-xs-12 col-sm-9">
 								<div class="profile-user-info" id="produk_detail">
